@@ -41,5 +41,10 @@ pipeline {
                 echo 'Run for Webhook tests from the Github source code' 
             }
         }
+         stage('YRS-Test 2') {
+            steps {
+                echo 'Run for Webhook tests from the Github source code' 
+            }
+        }
     }
 }
